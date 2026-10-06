@@ -37,14 +37,14 @@ pip install networkx matplotlib
 ```
 2. Copy the program visualizer.py
 3. Run the program
-4. Pick either 1 or two
+4. Pick either 1(for adjacency) or 2(for incidence)
 5. Input your graph
 
 ---
 
 ## Sample Input/Output
 
-Sample Input 1
+Sample Input 1 (choose 1)
 ```bash
 0 1 0 1 1
 1 0 1 1 1
@@ -77,5 +77,39 @@ Fundamental cut-set matrix
 <img width="1352" height="882" alt="image" src="https://github.com/user-attachments/assets/a63b4ffd-e090-4ba0-aeaf-f9fbf97a60b9" />
 
 
-Sample Input 2
+Sample Input 2 (choose 2)
 ```bash
+1 1 1 0 0 0 0 0
+1 0 0 1 0 1 1 0
+0 0 0 0 0 0 1 1
+0 1 0 1 1 0 0 0
+0 0 1 0 1 1 0 1
+```
+
+Sample Output 2
+```bash
+Edges: e1=(1,2), e2=(1,4), e3=(1,5), e4=(2,4), e5=(4,5), e6=(2,5), e7=(2,3), e8=(3,5)
+Tree edges: ['e1', 'e2', 'e3', 'e7']  Chords: ['e4', 'e5', 'e6', 'e8'] 
+
+Fundamental cycle matrix
+         e4   e5   e6   e8   e1   e2   e3   e7
+   Z1     1    0    0    0    1    1    0    0
+   Z2     0    1    0    0    0    1    1    0
+   Z3     0    0    1    0    1    0    1    0
+   Z4     0    0    0    1    1    0    1    1
+
+Fundamental cut-set matrix
+         e1   e2   e3   e7   e4   e5   e6   e8
+   c1     1    0    0    0    1    0    1    1
+   c2     0    1    0    0    1    1    0    0
+   c3     0    0    1    0    0    1    1    1
+   c4     0    0    0    1    0    0    0    1
+   ```
+<img width="502" height="482" alt="image" src="https://github.com/user-attachments/assets/1213ac3f-f007-4243-8d4f-f3ffd3f5367a" />
+<img width="1352" height="882" alt="image" src="https://github.com/user-attachments/assets/a09e804c-7d1a-4a9e-8166-08abad58f9ba" />
+<img width="1352" height="882" alt="image" src="https://github.com/user-attachments/assets/2e1c9d04-6396-45e3-9b69-fec66826e765" />
+
+---
+
+AI usage:
+https://claude.ai/share/7cff1b51-5b65-4c19-9c5e-17d6e6422140
