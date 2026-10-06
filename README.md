@@ -109,6 +109,18 @@ Fundamental cut-set matrix
 <img width="1352" height="882" alt="image" src="https://github.com/user-attachments/assets/a09e804c-7d1a-4a9e-8166-08abad58f9ba" />
 <img width="1352" height="882" alt="image" src="https://github.com/user-attachments/assets/2e1c9d04-6396-45e3-9b69-fec66826e765" />
 
+
+Sample Input 3
+```bash
+
+```
+
+Sample Output 3
+```bash
+
+
+   ```
+
 ---
 
 AI usage:
