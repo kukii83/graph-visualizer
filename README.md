@@ -120,11 +120,13 @@ Sample Input 3 (choose 1)
 
 Sample Output 3
 ```bash
+Fundamental cycle matrix
 e4   e5   e6   e1   e2   e3
     Z1     1    0    0    1    1    0
     Z2     0    1    0    1    0    1
     Z3     0    0    1    0    1    1
 
+Fundamental cut-set matrix
 e1   e2   e3   e4   e5   e6
     c1     1    0    0    1    1    0
     c2     0    1    0    1    0    1
