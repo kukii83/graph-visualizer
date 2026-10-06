@@ -133,6 +133,8 @@ e1   e2   e3   e4   e5   e6
     c3     0    0    1    0    1    1
    ```
 
+<img width="2065" height="1125" alt="image" src="https://github.com/user-attachments/assets/5f751401-3987-4585-963a-cecc753c30df" />
+
 ---
 
 AI usage:
